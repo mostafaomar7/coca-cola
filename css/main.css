@@ -3,6 +3,37 @@ body {
     font-family: 'Open Sans', sans-serif;
     
 }
+.activee{
+    color: #000;
+}
+/* start setting box */
+.setting-box{
+    position: fixed;
+    left: -200px;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+    width: 200px;
+    min-height: 100vh;
+    transition: .5s;
+}
+.setting-box.open{
+    left: 0;
+}
+.toogle i{
+    padding: 6px 0px;
+    width: 30px;
+}
+.setting-box .toogle{
+    position: absolute;
+    right: -30px;
+    top: 100px;
+    background-color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+}
+/* end setting box */
 .landing-page{
     height: 100vh;
     background-image: url('../img/03.jpg');
@@ -36,6 +67,7 @@ body {
     list-style: none;
     width: 100%;
     text-align: right;
+    padding-top: 25px;
     padding-left: 0px;
     padding-right: 20px;
     font-size: 20px;
@@ -54,7 +86,7 @@ margin-left: 12px;
     color: #ff5722;
 }
 .introduction-text{
-    
+    color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -92,7 +124,7 @@ font-family: monospace;
         list-style: none;
         width: 99%;
         text-align: right;
-        
+        padding-top: 25px;
         font-size: 16px;
     }
     
