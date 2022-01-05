@@ -110,6 +110,93 @@ font-size: 24px;
 font-weight: bold;
 font-family: monospace;
 }
+.zero{
+    margin-top: 20px;
+    background-color: #111;
+    color: white;
+    height: 650px;
+    width: 100%;
+}
+.zero .h{
+ text-align: center;
+ color: crimson;
+ font-size: 35px;
+ font-weight: bold;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin-bottom: 10px;
+}
+.right1{
+    margin-top: 80px;
+}
+.right1 h1{
+    font-size: 35px;
+    color: crimson;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.right1 p{
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.left img{
+    margin-top: 10px;
+}
+.raduis{
+    height: 420;
+    margin-top: 20px;
+}
+.left2{
+    margin-left: -50px;
+    margin-top: 30px;
+    height: 400px;
+    background-position: 0px -20px;
+    width: 500px;
+    background-size: cover;
+    background-image: url(../img/homepage-small-tile-new-left.png);
+    border-radius: 30px ;
+}
+.left2 .tex2 {
+    position: absolute;
+    margin-top: 200px;
+    padding-left: 50px;
+    color: white;
+}
+.tex2 h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.raduis button{
+    background-color: rgb(255, 0, 0);
+    font-weight:bold ;
+    font-size: 25px;
+    border-radius: 20px;
+    width: 160px;
+    border: 1px solid red;
+    color: white;
+}
+.raduis button:hover{
+    background-color: crimson;
+}
+.right2{
+    
+    margin-top: 30px;
+    height: 400px;
+    background-position: 0px -20px;
+    width: 700px;
+    background-size: cover;
+    background-image: url(../img/COKE-476-Text_Only-right.png);
+    border-radius: 30px ;
+}
+.tex3{
+    position: absolute;
+    margin-top: 50px;
+    color: white;
+    padding-left: 30px;
+}
+.tex3 p {
+    width: 50%;
+}
 @media (max-width :450px) {
     .landing-page{
         background-position: 50%;
@@ -122,12 +209,15 @@ font-family: monospace;
     }
     .header-area ul {
         list-style: none;
-        width: 99%;
+        width: 100%;
         text-align: right;
         padding-top: 25px;
         font-size: 16px;
     }
-    
+    .header-area ul li {
+        margin-left: 0px;
+        margin-right: 5px;
+    }
     .introduction-text{
       margin-top: 250px;
         position: absolute;
@@ -143,5 +233,29 @@ font-family: monospace;
     
     .introduction-text p{
     font-size: 18px;
+    }
+    .zero{
+        height: auto;
+    }
+    .left img{
+      width: 100%;
+    }
+    .left2{
+        width: 100%;
+        margin: 20px auto;
+        background-position: -10px 0px;
+    }
+    .left2 .tex2{
+        padding-left: 14px;
+    }
+    .right2{
+        width: 100%;
+        background-position: -210px 0px;
+    }
+    .right2 h1{
+        font-size: 22px;
+    }
+    .right2 p{
+        width: 80%;
     }
 }
